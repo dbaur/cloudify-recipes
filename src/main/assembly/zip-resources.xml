@@ -11,24 +11,70 @@
                 <fileSet>
                         <directory>.</directory>
                         <includes>
+                                <include>**/apps/computers/**</include>
+                                <include>**/apps/drupal-babies/**</include>
+								<include>**/apps/drupal-chef/**</include>
+                                <include>**/apps/hadoop-biginsights/**</include>
+								<include>**/apps/hello-puppet/**</include>
+                                <include>**/apps/helloworld/**</include>
+                                <include>**/apps/HttpSession/**</include>
+								<include>**/apps/jboss-mysql/**</include>
+								<include>**/apps/jboss-petclinic/**</include>
+								<include>**/apps/lamp/**</include>
+								<include>**/apps/masterslave/**</include>
+								<include>**/apps/mysql-admin/**</include>
                                 <include>**/apps/petclinic/**</include>
                                 <include>**/apps/petclinic-simple/**</include>
+                                <include>**/apps/petclinic-was/**</include>
+								<include>**/apps/redmine/**</include>
+								<include>**/apps/redmine-puppet/**</include>
+								<include>**/apps/storm/**</include>
+								<include>**/apps/storm-demo/**</include>
+								<include>**/apps/streaming-bigdata/**</include>
                                 <include>**/apps/travel/**</include>
                                 <include>**/apps/travel-chef/**</include>
-								<include>**/apps/helloworld/**</include>
-								<include>**/apps/hello-puppet/**</include>
+								<include>**/apps/travel-lb/**</include>
+								<include>**/apps/xap9x-tiny/**</include>
+								<include>**/apps/xapstream/**</include>
+								<include>**/services/activemq/**</include>
+								<include>**/services/apache/**</include>
 								<include>**/services/apacheLB/**</include>
-                                <include>**/services/activemq/**</include>
+                                <include>**/services/biginsights/**</include>
                                 <include>**/services/cassandra/**</include>
-                                <include>**/services/hsqldb/**</include>
-                                <include>**/services/mongodb/**</include>
-                                <include>**/services/solr/**</include>
-                                <include>**/services/tomcat/**</include>
                                 <include>**/services/chef/**</include>
-                                <include>**/services/chef-services/**</include>
+                                <include>**/services/chef-mysql/**</include>
                                 <include>**/services/chef-server/**</include>
-                                <include>**/services/puppet/**</include>
+                                <include>**/services/chef-services/**</include>
+                                <include>**/services/couchbase/**</include>
+                                <include>**/services/couchdb/**</include>
+                                <include>**/services/elasticsearch/**</include>
+                                <include>**/services/generic-shell/**</include>
                                 <include>**/services/groovy-utils/**</include>
+                                <include>**/services/haproxy/**</include>
+                                <include>**/services/hsqldb/**</include>
+                                <include>**/services/jboss/**</include>
+                                <include>**/services/memcached/**</include>
+                                <include>**/services/mongodb/**</include>
+                                <include>**/services/mysql/**</include>
+                                <include>**/services/mysql_agentless/**</include>
+                                <include>**/services/nginx/**</include>
+                                <include>**/services/nodejs/**</include>
+                                <include>**/services/play/**</include>
+                                <include>**/services/postgresql/**</include>
+                                <include>**/services/puppet/**</include>
+                                <include>**/services/puppet-agent/**</include>
+                                <include>**/services/rabbitmq/**</include>
+                                <include>**/services/rails/**</include>
+                                <include>**/services/redis/**</include>
+                                <include>**/services/solr/**</include>
+                                <include>**/services/storm/**</include>
+                                <include>**/services/tomcat/**</include>
+                                <include>**/services/vertx/**</include>
+                                <include>**/services/websphere/**</include>
+                                <include>**/services/wlp/**</include>
+                                <include>**/services/xap9x/**</include>
+                                <include>**/services/xapstream/**</include>
+                                <include>**/services/zookeeper/**</include>
                         </includes>
                         <outputDirectory>/</outputDirectory>
                 </fileSet>
