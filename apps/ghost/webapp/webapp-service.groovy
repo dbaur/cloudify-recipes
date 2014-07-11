@@ -2,6 +2,7 @@ import java.util.concurrent.TimeUnit;
 
 service {
 	name "webapp"
+	icon "ghost.png"
 	type "APP_SERVER"
 
 	elastic true
