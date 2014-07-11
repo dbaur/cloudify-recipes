@@ -8,8 +8,6 @@ cd $pwd
 cp config.example.js $HOME/.cloudify/ghost/
 cd $HOME/.cloudify/ghost
 cp config.example.js config.js
-sed -i "s/SERVERIP/$1/g" config.js
-sed -i "s/DBIP/$2/g" config.js
 npm install --production
 sudo curl https://raw.githubusercontent.com/TryGhost/Ghost-Config/master/init.d/ghost -o /etc/init.d/ghost
 sudo chmod 755 /etc/init.d/ghost

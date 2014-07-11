@@ -4,10 +4,10 @@ service {
 	name "webapp"
 	type "APP_SERVER"
 
-	elastic true	
+	elastic true
 	numInstances 1
 	minAllowedInstances 1
-	maxAllowedInstances 3
+	maxAllowedInstances 2
 	
 	def instanceId = context.instanceId
 	
@@ -26,11 +26,9 @@ service {
 			]
 		}	
 	
-		preInstall {
-			def mysqlService = context.waitForService("mysql", 180, TimeUnit.SECONDS)
-		}		
-	
 		install "webapp_install.groovy"
+
+		preStart "webapp_preStart.groovy"
 		
 		start   "webapp_start.groovy"
 
@@ -69,4 +67,6 @@ service {
                		return myPids
 		}            
 	}
+
 }
+
